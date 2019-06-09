@@ -10,3 +10,4 @@ The FCN-8 arcitecture uses standard VGG-16 network for downsampling and does ups
 
 GluonCV has been used to implement the FCN-8 model.
 
+``` $ python gluoncv_fcn.py```
