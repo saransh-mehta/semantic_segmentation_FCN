@@ -12,8 +12,8 @@ import matplotlib.image as mpimg
 print('all imports done')
 
 ctx = mx.cpu(0)
-IM_PATH = '../tf_detection_zoo/ssd_mobilenet_v2_coco_2018_03_29/selected_images_classes'
-SAVE_PATH = 'masks'
+IM_PATH = 'sample_input_images'
+SAVE_PATH = 'generated_masks'
 
 transform_fn = transforms.Compose([
     transforms.ToTensor(),
